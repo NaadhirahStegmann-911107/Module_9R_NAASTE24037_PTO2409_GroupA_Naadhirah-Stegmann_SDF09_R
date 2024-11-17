@@ -1,11 +1,10 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url(table.png);
+    background-image: url(images/table.png);
     background-size: cover;
     color:antiquewhite;
     text-align: center;
-    font-weight: bold; 
-  
+    font-weight: bold;  
 }
 
 
