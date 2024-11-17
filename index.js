@@ -4,14 +4,14 @@
 // 2. Create a variable, sum, and set it to the sum of the two cards
 
 let firstCard = 10
-let secondCard = 6
-let sum = firstCard + secondCard + 6
+let secondCard = 7
+let sum = firstCard + secondCard + 4
 
-if (sum < 21) {
+if (sum <= 20) {
     console.log("Do you want to draw a new card? 🙂")
-} else if ( sum ===21) {
+} else if (sum === 21) {
     console.log("Woohoo! You've got Blackjack! 🥳")
-} else if (sum > 21) {
+} else {
     console.log("You're out of the game! 😭")
 }
 
