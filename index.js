@@ -48,11 +48,12 @@ function renderGame() {
 }
 
 function newCard() {
-    console.log("Drawing a new card from the deck!")
+    if (isAlive === true && hasBlackJack === false) {
     let card = getRandomCard()
     sum += card
     cards.push(card)
     renderGame()
+    }
 }
  
 
